@@ -1,0 +1,11 @@
+kafka:
+  servers:
+    - 103.117.148.23:9092
+  group: accountConsumer
+db:
+  driver: mysql
+  host: 103.117.148.23
+  port: 3306
+  user: admin
+  pass: admin
+  db_name: microservice
